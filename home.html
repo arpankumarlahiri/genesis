@@ -1,554 +1,577 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <header class="sticky top-0 z-50 bg-yellow-500 text-white body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-              <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0" href="#about">
-                
-                <span class="ml-3 text-xl">Arpan Kumar Lahiri</span>
-                
-              </a>
-              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-yellow-900" href="#skill">Skills</a>
-                <a class="mr-5 hover:text-yellow-900" href="#experience">Experience</a>
-                <a class="mr-5 hover:text-yellow-900" href="#project">Projects</a>
-                <a class="mr-5 hover:text-yellow-900" href="#publication">Publication</a>
-                <a class="mr-5 hover:text-yellow-900"href="#achievement">Moments</a>
-              </nav>
-              <button class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">
-                <a href="#contact">Contact</a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="sticky top-0 z-50 bg-yellow-500 text-white body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0" href="#about">
+
+        <span class="ml-3 text-xl">Arpan Kumar Lahiri</span>
+
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-yellow-900" href="#skill">Skills</a>
+        <a class="mr-5 hover:text-yellow-900" href="#experience">Experience</a>
+        <a class="mr-5 hover:text-yellow-900" href="#project">Projects</a>
+        <a class="mr-5 hover:text-yellow-900" href="#publication">Publication</a>
+        <a class="mr-5 hover:text-yellow-900" href="#achievement">Moments</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-base mt-4 md:mt-0">
+        <a href="#contact">Contact</a>
+
+
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <section id="about" class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="assets/dp1.jpg">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello!
+          <br class="hidden lg:inline-block">I am Arpan Kumar Lahiri
+        </h1>
+        <p class="mb-8 leading-relaxed">I am the creator of stych a cloth virtualization software.I am resourceful
+          software developer with specialization in python. I have worked previously in domains related to machine
+          Learning
+          embedded system and IoT. I have sold prototype IoT product. Currently providing a consultancy service.
+        </p>
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
+            <a href="https://docs.google.com/document/d/1JzKFZXKjIcpwPVYG4pWj0QxZ--QusOsRh8rqV121yz4/edit?usp=sharing"
+              target="_blank">
+              Resume
+            </a>
+          </button>
+          <button
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+
+            Hire Me
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Skills</h1>
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M8 17l4 4 4-4m-4-5v9"></path>
+              <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">Python</h2>
+            <p class="leading-relaxed">Primary</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+              <path
+                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z">
+              </path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">Machine Learning</h2>
+            <p class="leading-relaxed">Primary</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">MySql</h2>
+            <p class="leading-relaxed">Primary</p>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+            </svg>
+            <h2 class="title-font font-medium text-3xl text-gray-900">Web Analytics</h2>
+            <p class="leading-relaxed">Secondary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
   
-                
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </button>
+  <section id="experience" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Experience</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-8 h-8" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
             </div>
-          </header>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Engineer Intern</h2>
+              <a class="mt-3 text-yellow-500 inline-flex items-center">Ultratech Automation
+              </a>
+              <p class="leading-relaxed text-base">
+                I was responsible for designing circuit and programming ESP8266 for Ultrasmart home automation product.
+                Implemented toggling switches and triac speed control of 220v AC output wirelessly.
+                Integrated Google speech to text api in system thus making it voice command friendly.
+              </p>
 
-          <section id="about" class="text-gray-600 body-font">
-            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
-              </div>
-              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello!
-                  <br class="hidden lg:inline-block">I am Arpan Kumar Lahiri
-                </h1>
-                <p class="mb-8 leading-relaxed">I am the creator of stych a cloth virtualization software.I am resourceful software developer with specialization in python. I have worked previously in domains related to machine Learning
-                  embedded system and IoT. I have sold prototype IoT product. Currently providing a consultancy service.
-                </p>
-                <div class="flex justify-center">
-                  <button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-                  <a href="https://docs.google.com/document/d/1JzKFZXKjIcpwPVYG4pWj0QxZ--QusOsRh8rqV121yz4/edit?usp=sharing">
-                  Resume
-                  </a>
-                  </button>
-                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                    
-                    Hire Me
-                    </button>
-                </div>
-              </div>
             </div>
-          </section>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-10 h-10" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Assistant System Engineer</h2>
+              <a class="mt-3 text-yellow-500 inline-flex items-center">Tata Consultancy Services
 
-          <section id="skill" class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Skills</h1>
-              <div class="flex flex-wrap -m-4 text-center">
-                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                      <path d="M8 17l4 4 4-4m-4-5v9"></path>
-                      <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
-                    </svg>
-                    <h2 class="title-font font-medium text-3xl text-gray-900">Python</h2>
-                    <p class="leading-relaxed">Primary</p>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                      <path d="M3 18v-6a9 9 0 0118 0v6"></path>
-                      <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
-                    </svg>
-                    <h2 class="title-font font-medium text-3xl text-gray-900">Machine Learning</h2>
-                    <p class="leading-relaxed">Primary</p>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
-                    <h2 class="title-font font-medium text-3xl text-gray-900">MySql</h2>
-                    <p class="leading-relaxed">Primary</p>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                  <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                      <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
-                      <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
-                    </svg>
-                    <h2 class="title-font font-medium text-3xl text-gray-900">Web Analytics</h2>
-                    <p class="leading-relaxed">Secondary</p>
-                  </div>
-                </div>
+              </a>
+              <p class="leading-relaxed text-base">
+                I was part of feature engineering and data cleansing team for Optumera (TCS AI product) and
+                was responsible for delivering insights from analytics data and developing tags to capture client
+                requirements
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2 md:w-full">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+            <div
+              class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-10 h-10" viewBox="0 0 24 24">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="flex-grow">
+              <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Consultant</h2>
+              <a class="mt-3 text-yellow-500 inline-flex items-center">Self employed
+              </a>
+              <p class="leading-relaxed text-base">
+                I am developing wireless Nursing system for client.
+                Successfully implemented plug and grow feature and node to node hopping using ESP-Mesh
+                and developed GUI using Python TKinter
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  
+  <section id="project" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Projects</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/420x260">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">STYCH</h2>
+            <p class="mt-1">Cloth virtualization</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/421x261">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Bridget</h2>
+            <p class="mt-1">Bridge Health Monitoring System</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/422x262">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Dual Axis Solar Tracker</h2>
+            <p class="mt-1">Maps Position of Sun with Solar Panel to increase efficiency</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/423x263">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Internet of Home</h2>
+            <p class="mt-1">Home automation system integrated with mobile app</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/424x264">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
+            <p class="mt-1">Visual Arts</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/424x264">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
+            <p class="mt-1">Visual Arts</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/424x264">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
+            <p class="mt-1">Visual Arts</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block"
+              src="https://dummyimage.com/424x264">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
+            <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
+            <p class="mt-1">Visual Arts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="publication" class="text-gray-600 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Publications</h1>
+      <div class="-my-8 divide-y-2 divide-gray-100">
+
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">IEEE</span>
+            <span class="mt-1 text-gray-500 text-sm">Mar 2018</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Optical Fiber Based Smart Illumination System
+            </h2>
+            <p class="leading-relaxed">Electricity crisis is a very common fact in today's world. Conventional lighting
+              system requires huge electricity consumption. So some smart systems are used for illumination
+              purposes.....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4"
+              href="https://ieeexplore.ieee.org/document/8405099">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">FOSET</span>
+            <span class="mt-1 text-gray-500 text-sm">Feb 2017</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Air Swipe Controlled Home Made Speaker</h2>
+            <p class="leading-relaxed">Nowadays home automation is becoming a crucial part of our
+              life. Smart objects and devices are more preferred in all fields.
+              Air gesture is a new concept.....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4"
+              href="https://docs.google.com/document/d/1xERIro8bImeofAs2i-q-BKHRbZ9-yVUh/edit?usp=sharing&ouid=113271855655480040073&rtpof=true&sd=true">Learn
+              More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">IEEE</span>
+            <span class="text-sm text-gray-500">Mar 2018</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Controlling of Mobile Car using IR sensors
+              and a Triple axes magnetometer</h2>
+            <p class="leading-relaxed">This paper presents the particulars and details of controlling a mobile car robot
+              in a precise angle set clockwise with respect to the magnetic north of earth. With the employment of a
+              magnetometer and infrared (IR) technology.......</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4"
+              href="https://ieeexplore.ieee.org/document/8405085">Learn More
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="gallery" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex w-full mb-20 flex-wrap">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse
+          Reliac Heirloom</h1>
+        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep
+          jianbing selfies heirloom.</p>
+      </div>
+      <div class="flex flex-wrap md:-m-2 -m-1">
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://dummyimage.com/500x300">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://dummyimage.com/501x301">
+          </div>
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block"
+              src="https://dummyimage.com/600x360">
+          </div>
+        </div>
+        <div class="flex flex-wrap w-1/2">
+          <div class="md:p-2 p-1 w-full">
+            <img alt="gallery" class="w-full h-full object-cover object-center block"
+              src="https://dummyimage.com/601x361">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://dummyimage.com/502x302">
+          </div>
+          <div class="md:p-2 p-1 w-1/2">
+            <img alt="gallery" class="w-full object-cover h-full object-center block"
+              src="https://dummyimage.com/503x303">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="achievement" class="text-gray-600 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Achievements</h1>
+      <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">DRDO</span>
+            <span class="mt-1 text-gray-500 text-sm">East Top 25</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">DRDO Robotics and Unmanned system Exposition
+            </h2>
+            <p class="leading-relaxed">Deviced a theoritical solution for frictionless transportation in 
+              uneven terrain, theorical model used quantum locking for stabilizing payload.
+
+            </p>
+          </div>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">FOSET</span>
+            <span class="mt-1 text-gray-500 text-sm">Best Student Paper</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">INNOVATIVE TECHNOLOGY WITH COMMERCIAL
+              POTENTIAL</h2>
+            <p class="leading-relaxed">
+              Successfully integrated air gesture to daily devices like speaker without wearables 
+              with the help of infrared proximity sensor.</p>
+          </div>
+        </div>
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">NIT</span>
+            <span class="text-sm text-gray-500">Top #3</span>
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">TECH TALENT HUNT</h2>
+            <p class="leading-relaxed">
+              Created a wheelchair that can be controlled using hand getsure, it increased the degree of 
+              freedom and increased options for more add on functionality. Added safety features in wheelchair.S
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+  
+  <section id="blogs" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://1.bp.blogspot.com/-E5OtMgqPyDw/XGbwkeoSg8I/AAAAAAAAH-c/hB-9x54uYXIWF_7kaafiEDxdeudpHPMPACEwYBhgL/s1600/1000x-1.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Science</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Quantum Computing</h1>
+              <p class="leading-relaxed mb-3">As Richard Feynman said "if you think you understood quantum theory then you have not understood it".Using quantum mechanics in computation
+                .....................
+              </p>
+              <div class="flex items-center flex-wrap ">
+                <a href="https://marihuanapark.blogspot.com/2019/02/quantum-computing-wtf-is-that.html" class="text-yellow-500 inline-flex items-center md:mb-2 lg:mb-0">Read
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
               </div>
             </div>
-          </section>
-          <hr>
-          <section id="experience" class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Experience</h1>
-              <div class="flex flex-wrap -m-4">
-                <div class="p-4 lg:w-1/2 md:w-full">
-                  <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-                    <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                      </svg>
-                    </div>
-                    <div class="flex-grow">
-                      <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Engineer Intern</h2>
-                      <a class="mt-3 text-yellow-500 inline-flex items-center">Ultratech Automation
-                      </a>
-                      <p class="leading-relaxed text-base">
-                        I was responsible for designing circuit and programming ESP8266 for Ultrasmart home automation product.
-                        Implemented toggling switches and triac speed control of 220v AC output wirelessly.
-                        Integrated Google speech to text api in system thus making it voice command friendly.
-                      </p>
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/2 md:w-full">
-                  <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-                    <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                      </svg>
-                    </div>
-                    <div class="flex-grow">
-                      <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Assistant System Engineer</h2>
-                      <a class="mt-3 text-yellow-500 inline-flex items-center">Tata Consultancy Services
-                        
-                      </a>
-                      <p class="leading-relaxed text-base">
-                        I was part of feature engineering and data cleansing team for Optumera (TCS AI product) and
-                        was responsible for delivering insights from analytics data and developing tags to capture client requirements
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/2 md:w-full">
-                    <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-                      <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                          <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                      </div>
-                      <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Consultant</h2>
-                        <a class="mt-3 text-yellow-500 inline-flex items-center">Self employed
-                        </a>  
-                        <p class="leading-relaxed text-base">
-                          I am developing wireless Nursing system for client.
-                          Successfully implemented plug and grow feature and node to node hopping using ESP-Mesh
-                          and developed GUI using Python TKinter
-                        </p>
-                        
-                      </div>
-                    </div>
-                  </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://4.bp.blogspot.com/-8gtwppBpWN0/XHWts8udArI/AAAAAAAAIAg/LDieNmvLB207I1Of-hI0PsgmllJrp-WtQCLcBGAs/s1600/beautiful-blooming-blossom-1440476.jpg"
+              alt="blog">
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Self Help</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">IKIGAI</h1>
+              <p class="leading-relaxed mb-3">Mark Twain once quoted “Twenty years from now you will be more
+                 disappointed by the things that you didn't do than by the ones you did do ...............</p>
+              <div class="flex items-center flex-wrap">
+                <a href= "https://marihuanapark.blogspot.com/2019/02/mark-twain-once-quoted-twenty-years.html" class="text-yellow-500 inline-flex items-center md:mb-2 lg:mb-0">Read
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
               </div>
             </div>
-          </section>
-          <hr>
-          <section id="project" class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Projects</h1>
-              <div class="flex flex-wrap -m-4">
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">STYCH</h2>
-                    <p class="mt-1">Cloth virtualization</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">Bridget</h2>
-                    <p class="mt-1">Bridge Health Monitoring System</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">Dual Axis Solar Tracker</h2>
-                    <p class="mt-1">Maps Position of Sun with Solar Panel to increase efficiency</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">HARDWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">Internet of Home</h2>
-                    <p class="mt-1">Home automation system integrated with mobile app</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
-                    <p class="mt-1">Visual Arts</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
-                    <p class="mt-1">Visual Arts</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
-                    <p class="mt-1">Visual Arts</p>
-                  </div>
-                </div>
-                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a class="block relative h-48 rounded overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
-                  </a>
-                  <div class="mt-4">
-                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SOFTWARE</h3>
-                    <h2 class="text-gray-900 title-font text-lg font-medium">First</h2>
-                    <p class="mt-1">Visual Arts</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr>
-          <section id="publication" class="text-gray-600 body-font overflow-hidden">
-            <div class="container px-5 py-24 mx-auto">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Publications</h1>
-              <div class="-my-8 divide-y-2 divide-gray-100">
-                
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">IEEE</span>
-                    <span class="mt-1 text-gray-500 text-sm">Mar 2018</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Optical Fiber Based Smart Illumination System</h2>
-                    <p class="leading-relaxed">Electricity crisis is a very common fact in today's world. Conventional lighting system requires huge electricity consumption. So some smart systems are used for illumination purposes.....</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4" href="https://ieeexplore.ieee.org/document/8405099">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">FOSET</span>
-                    <span class="mt-1 text-gray-500 text-sm">Feb 2017</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Air Swipe Controlled Home Made Speaker</h2>
-                    <p class="leading-relaxed">Nowadays home automation is becoming a crucial part of our
-                      life. Smart objects and devices are more preferred in all fields.
-                      Air gesture is a new concept.....</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4" href="https://docs.google.com/document/d/1xERIro8bImeofAs2i-q-BKHRbZ9-yVUh/edit?usp=sharing&ouid=113271855655480040073&rtpof=true&sd=true">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">IEEE</span>
-                    <span class="text-sm text-gray-500">Mar 2018</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Controlling of Mobile Car using IR sensors and a Triple axes magnetometer</h2>
-                    <p class="leading-relaxed">This paper presents the particulars and details of controlling a mobile car robot in a precise angle set clockwise with respect to the magnetic north of earth. With the employment of a magnetometer and infrared (IR) technology.......</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4" href="https://ieeexplore.ieee.org/document/8405085">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr>
-          <section id="gallery" class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap">
-              <div class="flex w-full mb-20 flex-wrap">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Master Cleanse Reliac Heirloom</h1>
-                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-              </div>
-              <div class="flex flex-wrap md:-m-2 -m-1">
-                <div class="flex flex-wrap w-1/2">
-                  <div class="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
-                  </div>
-                  <div class="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
-                  </div>
-                  <div class="md:p-2 p-1 w-full">
-                    <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
-                  </div>
-                </div>
-                <div class="flex flex-wrap w-1/2">
-                  <div class="md:p-2 p-1 w-full">
-                    <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
-                  </div>
-                  <div class="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
-                  </div>
-                  <div class="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr>
-          <section id="achievement" class="text-gray-600 body-font overflow-hidden">
-            <div class="container px-5 py-24 mx-auto">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Achievements</h1>
-              <div class="-my-8 divide-y-2 divide-gray-100">
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">DRDO</span>
-                    <span class="mt-1 text-gray-500 text-sm">East Top 25</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">DRDO Robotics and Unmanned system Exposition</h2>
-                    <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">FOSET</span>
-                    <span class="mt-1 text-gray-500 text-sm">Best Student Paper</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">INNOVATIVE TECHNOLOGY WITH COMMERCIAL POTENTIAL</h2>
-                    <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                  <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span class="font-semibold title-font text-gray-700">NIT</span>
-                    <span class="text-sm text-gray-500">Top #3</span>
-                  </div>
-                  <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">TECH TALENT HUNT</h2>
-                    <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-4">Learn More
-                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr>
-          <section id="blogs" class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-              <div class="flex flex-wrap -m-4">
-                <div class="p-4 md:w-1/3">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                      <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                      <div class="flex items-center flex-wrap ">
-                        <a class="text-yellow-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                          </svg>1.2K
-                        </span>
-                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>6
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-                      <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                      <div class="flex items-center flex-wrap">
-                        <a class="text-yellow-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                          </svg>1.2K
-                        </span>
-                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>6
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/3">
-                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
-                    <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-                      <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                      <div class="flex items-center flex-wrap ">
-                        <a class="text-yellow-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M5 12h14"></path>
-                            <path d="M12 5l7 7-7 7"></path>
-                          </svg>
-                        </a>
-                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                          </svg>1.2K
-                        </span>
-                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
-                          <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                          </svg>6
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr>
-          <section id="contact" class="text-gray-600 body-font relative">
-            <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-              <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-    
-                <iframe class="absolute inset-0" style="filter: grayscale(1) contrast(1.2) opacity(0.4);" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7360.729849695044!2d88.36497362258558!3d22.71467378716621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b844642e7cd%3A0x8624036f7e60824c!2sKulinpara%2C%20Khardaha%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1628761866337!5m2!1sen!2sin" width="100%" height="100%" frameborder="0"></iframe>
-                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-                  <div class="lg:w-1/2 px-6">
-                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                    <p class="mt-1">PN Mukherjee Road, Kulin Para, Khardah, North 24 Parganas, West Bengal, India</p>
-                  </div>
-                  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                    <a class="text-yellow-500 leading-relaxed">arpanlahiri05@gmail.com</a>
-                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                    <p class="leading-relaxed">891-043-9029</p>
-                  </div>
-                </div>
-              </div>
-              <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
-                <div class="relative mb-4">
-                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-                  <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                </div>
-                <div class="relative mb-4">
-                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                  <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                </div>
-                <div class="relative mb-4">
-                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-                  <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                </div>
-                <button class="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Button</button>
-                <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
-              </div>
-            </div>
-          </section>
-          
-    </body>
-    
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <hr>
+ 
+  <section id="contact" class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div
+        class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+
+        <iframe class="absolute inset-0" style="filter: grayscale(1) contrast(1.2) opacity(0.4);" title="map"
+          marginheight="0" marginwidth="0" scrolling="no"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7360.729849695044!2d88.36497362258558!3d22.71467378716621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89b844642e7cd%3A0x8624036f7e60824c!2sKulinpara%2C%20Khardaha%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1628761866337!5m2!1sen!2sin"
+          width="100%" height="100%" frameborder="0"></iframe>
+        <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+          <div class="lg:w-1/2 px-6">
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+            <p class="mt-1">PN Mukherjee Road, Kulin Para, Khardah, North 24 Parganas, West Bengal, India</p>
+          </div>
+          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+            <a class="text-yellow-500 leading-relaxed">arpanlahiri05@gmail.com</a>
+            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+            <p class="leading-relaxed">891-043-9029</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+        <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+        <div class="relative mb-4">
+          <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+          <input type="text" id="name" name="name"
+            class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email"
+            class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+          <textarea id="message" name="message"
+            class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        </div>
+        <button
+          class="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Button</button>
+        <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
 </html>
